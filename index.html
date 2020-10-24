@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<style>
+body {background-color: powderblue;}
+h1 {
+	color: blue;
+	font-family: verdana;
+    font-size: 300%;
+    }
+button {
+  background-color: #008CBA; /* BLUE */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+button1:hover {
+  background-color: #000000;
+  color: white;
+}
+input[type=text] {
+  width: 55%;
+  padding: 16px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+</style>
+</head>
+<title>Chat Application</title>
+<script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+<script defer src="script.js"></script>
+</head>
+<body>
+<h1>Chat App</h1>
+<div id="message-container"></div>
+<form id="send-container">
+    <input type="text" id=message-input>
+    <button type="submit" id=:send-button class="button button1">Send</button>
+</form>
+</body>
+</html>
