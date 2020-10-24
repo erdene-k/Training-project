@@ -14,5 +14,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdene-k/Training-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erdene-k/Training-project/issues"
+  },
+  "homepage": "https://github.com/erdene-k/Training-project#readme"
 }
